@@ -1,0 +1,140 @@
+html,
+body,
+#root,
+#root > div {
+    height: 100%;
+    margin: 0;
+}
+
+body {
+    background-color: #f5f5f5;
+}
+
+a {
+    color: inherit;
+}
+
+tbody {
+    border: none !important;
+}
+
+.bold-font {
+    font-weight: 600;
+}
+
+.error-text {
+    font-size: 12px;
+}
+
+.align-right {
+    text-align: right;
+}
+
+td.no-padding-top {
+    padding-top: 0;
+}
+
+.alert-container {
+    top: 4em !important;
+    white-space: pre-wrap;
+}
+
+.dash-header {
+    margin-top: 30px;
+}
+
+.table-header {
+    font-size: 1.2rem;
+}
+
+td.borderless.table-header {
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+
+.modal-table td {
+    padding: 0.3rem 0.75rem;
+}
+
+.modal-table td.modal-table-header {
+    margin-bottom: 0;
+}
+
+.modal-button {
+    min-width: 100px;
+}
+
+.table-button {
+    text-align: right;
+    display: table-cell;
+    margin: 0 auto;
+}
+
+td.table-button {
+    vertical-align: middle;
+}
+
+.jumbotron {
+    background-color: white;
+    padding: 10px 10px;
+    margin: 0;
+}
+
+.table {
+    margin-bottom: 0;
+}
+
+.table thead th {
+    border: 0 none;
+}
+
+td.borderless {
+    border-top: 0 none;
+}
+
+.table-element-header {
+    font-size: 1.1rem;
+}
+
+.table-element-comment {
+    font-style: italic;
+}
+
+.table-element-comment,
+.table-element-info {
+    font-size: 0.9rem;
+}
+
+.job-table-element-info {
+    white-space: pre-wrap;
+}
+
+td.vertical-center {
+    vertical-align: middle;
+}
+
+.new-status {
+    text-align: center;
+    background-color: #fafafa;
+    border-radius: 0.3rem;
+    padding-top: 4p;
+    padding-bottom: 4px;
+    margin-bottom: 0;
+    margin-top: 14px;
+    color: #989898;
+    cursor: pointer;
+}
+
+.border-radius {
+    border-radius: 0.3rem;
+}
+
+.light-tint {
+    background-color: #fafafa;
+}
+
+@media (max-width: 479px) {
+    .alert-container {
+        top: 0 !important;
+    }
+}
